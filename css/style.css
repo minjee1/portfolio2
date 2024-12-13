@@ -534,14 +534,14 @@
     vertical-align: middle;
 }
 
-.prdlist li .thumbnail .icon .sale {
+.prdlist li .icon .promotion {
     float: left;
     margin: 0 0 4px;
     text-align: left;
 }
 
-.prdlist li .thumbnail .icon .sale img {
-    margin: 0 4px 0 0;
+.prdlist li .icon .promotion img {
+    margin-left: 29px;
     vertical-align: middle;
 }
 
@@ -551,4 +551,23 @@
     font-size: 12px;
     line-height: 15px;
     text-align: left;
+}
+
+.product .prdlist .description .check {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 0 10px;
+}
+
+.product .prdlist .description .check input {
+    display: none;
+}
+
+.product .prdlist .description .name {
+    display: block;
+    text-align: left;
+    margin: 0 0 6px;
 }
