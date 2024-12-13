@@ -1,0 +1,36 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, img {
+    margin: 0;
+    padding: 0;
+}
+
+font {
+    font: 0.70em 'Outfit', '맑은 고딕', malgungothic, 'Nanum Gothic', '나눔고딕', dotum, Verdana, Dotum, AppleGothic, sans-serif;
+    color: #555;
+    background: #fff;
+    letter-spacing: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    font-size: 100%;
+    font-family: "돋움", Dotum;
+    color: #353535;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: none;
+    vertical-align: top;
+}
+
+body {
+    font: 0.70em 'Outfit', '맑은 고딕', malgungothic, 'Nanum Gothic', '나눔고딕', dotum, Verdana, Dotum, AppleGothic, sans-serif;
+}
