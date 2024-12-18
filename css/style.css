@@ -259,13 +259,12 @@
     flex: 50%;
 }
 
-.account {
-    text-align: left;
-}
 /* LANGUEGE 영역 */
 
 .language {
-
+    position: absolute;
+    left: -10px;
+    top: 48px;
     z-index: 10;
 }
 
@@ -273,7 +272,6 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* padding: 10px 13px 10px 10px; */
     border: 0px solid #d8d8d8;
     color: #555;
     font-size: 11px;

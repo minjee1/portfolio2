@@ -5,14 +5,14 @@ $(function () {
         $(".accordion_cont").slideUp("slow");
         $("+div", this).slideDown("slow");
       }
-  }); 
+  });
 });
 
 $(function () {
-  $("#accordion .accordion-toggle").click(function () {        
+  $(".account .accordion-toggle_01").click(function () {        
     console.log($("+div",this).css('display'));
       if($("+div",this).css('display') === "none"){
-        $(".accordion_cont").slideUp("slow");
+        $(".accordion_cont_01").slideUp("slow");
         $("+div", this).slideDown("slow");
       }
   }); 
