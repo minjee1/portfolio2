@@ -143,7 +143,6 @@
 .right_gnb .searchheader {
     color: #666;
     border-bottom: 1px solid black;
-    float: right;
     margin-bottom: 18px;
 }
 
@@ -248,42 +247,54 @@
     max-height: 112px;
 }
 
+.accordion_01 {
+    position: relative;
+}
+
+.ac_lg_wrap {
+    display: flex;
+    min-height: 80px;
+}
+.ac_lg_wrap div {
+    flex: 50%;
+}
+
+.account {
+    text-align: left;
+}
 /* LANGUEGE 영역 */
 
-.ranguage {
-    position: absolute;
-    top: 82px;
-    right: 9%;
-    width: 80px;
+.language {
+
     z-index: 10;
 }
 
-.ranguage .toggle {
+.language .toggle {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 10px 13px 10px 10px;
+    /* padding: 10px 13px 10px 10px; */
     border: 0px solid #d8d8d8;
     color: #555;
     font-size: 11px;
     background: #fff;
 }
 
-.ranguage .toggle i {
+.language .toggle i {
     margin: 5px 0 0 5px;
     color: #555;
     font-size: 11px;
 }
 
-.ranguage ul {
+.language ul {
     visibility: hidden;
 }
 
-.ranguage ul li.selected {
+.language ul li.selected {
     display: none;
 }
 
-.ranguage ul li {
+.language ul li {
     height: 20px;
     border: 0px solid #d8d8d8;
     border-top: none;
@@ -292,7 +303,7 @@
     background: #fff;
 }
 
-.ranguage ul li a {
+.language ul li a {
     display: block;
     text-align: left;
     text-decoration: none;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포트폴리오 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/initial.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
@@ -23,7 +24,7 @@
                     <div class="accordion_cont">
                         <div id="category" class="category">
                             <div class="submenu">
-                                <ul class="dd">
+                                <ul>
                                     <li class="record_">
                                         <a href="#">BINARY01 MADE</a>
                                     </li>
@@ -80,34 +81,56 @@
                 </div>
             </section>
             <section class="right_gnb">
-                <form id="searchbar" method="get" target="_self" enctype="multipart/form-data">
+                <div class="search">
+                    <form id="searchbar" method="get" target="_self" enctype="multipart/form-data">
                     <input id="banner_action" value type="hidden">
                     <div class="searchheader">
                         <input id="keyword" name="keyword" fw-filter="" fw-label="검색어" fw-msg="" class="inputTypeText" placeholder="" value="" type="text">
                         <i class="xi-search xi-x" aria-hidden="true" onclick="SEARCH_BANNER.submitSearchBanner(this); return false;" style="cursor:pointer"></i>
+                    </form>
+                </div>
+                <div class="ac_lg_wrap">
+                    <div class="language">
+                        <button type="btn" class="toggle">
+                            LANGUAGE &nbsp;
+                            <i aria-hidden="true" class="xi-angle-down xi-x"></i>
+                        </button>
+                        <ul class="sublanguage">
+                            <li class="selected record_">
+                                <a href="#">한국어</a>
+                            </li>
+                            <li class="record_">
+                                <a href="#">English</a>
+                            </li>
+                            <li class="record_">
+                                <a href="#">中文</a>
+                            </li>
+                            <li class="record_">
+                                <a href="#">日本語</a>
+                            </li>
+                        </ul>
                     </div>
-                </form>
-                <div class="accordion_01">
-                    <p class="accordion-toggle_01">ACCOUNT</p>
-                    <div class="accordion_cont_01">
-                        <div class="statelogoff">
-                            <a href="#" class="log">LOGIN</a>
-                            <a href="#">JOIN</a>
-                        </div>
-                    </div>
-                    <p class="accordion-toggle_01">MYSHOP</p>
-                    <div class="accordion_cont_01">
-                        <div id="smyshop" class="smyshop">
-                            <div class="submenu">
-                                <ul>
-                                    <li><a href="#">MYSHOP</a></li>
-                                    <li><a href="#">CART</a></li>
-                                    <li><a href="#">ORDER</a></li>
-                                    <li><a href="#">WISH</a></li>
-                                    <li><a href="#">MILEAGE</a></li>
-                                </ul>
+                    <div class="account">
+                        <p class="accordion-toggle_01">ACCOUNT</p>
+                        <div class="accordion_cont_01">
+                            <div class="statelogoff">
+                                <a href="#" class="log">LOGIN</a>
+                                <a href="#">JOIN</a>
                             </div>
                         </div>
+                        <p class="accordion-toggle_01">MYSHOP</p>
+                        <div class="accordion_cont_01">
+                            <div id="smyshop" class="smyshop">
+                                <div class="submenu">
+                                    <ul>
+                                        <li><a href="#">MYSHOP</a></li>
+                                        <li><a href="#">CART</a></li>
+                                        <li><a href="#">ORDER</a></li>
+                                        <li><a href="#">WISH</a></li>
+                                        <li><a href="#">MILEAGE</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </section>
@@ -117,26 +140,6 @@
                     <a href="#"></a>
                     <a href="./index.html"><img src="./img/logo.jpg" alt="logo"></a>
                 </h1>
-            </div>
-            <div class="ranguage">
-                <button type="btn" class="toggle">
-                    LANGUAGE &nbsp;
-                    <i aria-hidden="true" class="xi-angle-down xi-x"></i>
-                </button>
-                <ul class="subranguage">
-                    <li class="selected record_">
-                        <a href="#">한국어</a>
-                    </li>
-                    <li class="record_">
-                        <a href="#">English</a>
-                    </li>
-                    <li class="record_">
-                        <a href="#">中文</a>
-                    </li>
-                    <li class="record_">
-                        <a href="#">日本語</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
