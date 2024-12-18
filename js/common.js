@@ -15,6 +15,14 @@ $(function () {
         $(".accordion_cont_01").slideUp("slow");
         $("+div", this).slideDown("slow");
       }
-  }); 
+  });
+});
+
+$(function () {
+  $(".right_gnb .language").click(function () {
+    if($("+ul",this).css('display') === "none"){
+      $(".sublanguage li").addClass('display:block;')
+    }
+  });
 });
 

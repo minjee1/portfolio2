@@ -87,13 +87,17 @@
 
 .category .submenu > ul > li > a {
     display: block;
-    padding: 0px 20px 0px 5px;
+    padding: 0px 16px 0px 5px;
     line-height: 16px;
     color: #000;
     font-size: 11px;
     font-weight: 300;
     text-decoration: none;
     word-spacing: -1px;
+}
+
+.category .submenu ul li:first-child a {
+    font-weight: bold;
 }
 
 .category .sub_category {
@@ -219,6 +223,17 @@
     padding: 0px;
 }
 
+.smyshop li a {
+    display: block;
+    padding: 0 5px 0 0;
+    color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 0;
+    word-spacing: -1px;
+}
+
 /* 로고 영역 */
 
 #header .top {
@@ -259,6 +274,8 @@
     flex: 50%;
 }
 
+
+
 /* LANGUEGE 영역 */
 
 .language {
@@ -285,11 +302,11 @@
 }
 
 .language ul {
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .language ul li.selected {
-    display: none;
+    /* display: none; */
 }
 
 .language ul li {
