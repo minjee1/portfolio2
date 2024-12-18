@@ -3,7 +3,7 @@ $(function () {
     console.log($("+div",this).css('display'));
       if($("+div",this).css('display') === "none"){
         $(".accordion_cont").slideUp("slow");
-        $("+div", this).slideDown("slow");
+        $("+div", this).slideDown("fast");
       }
   });
 });
@@ -13,7 +13,7 @@ $(function () {
     console.log($("+div",this).css('display'));
       if($("+div",this).css('display') === "none"){
         $(".accordion_cont_01").slideUp("slow");
-        $("+div", this).slideDown("slow");
+        $("+div", this).slideDown("fast");
       }
   });
 });
