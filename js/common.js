@@ -4,7 +4,7 @@ $(function () {
         $(".accordion_cont").slideUp("slow");
         $("+div", this).slideDown("fast");
       }else{
-        $(".accordion_cont").slideUp("slow");
+        $(".accordion_cont").slideUp("fast");
       }
   });
 
@@ -13,7 +13,7 @@ $(function () {
         $(".accordion_cont_01").slideUp("slow");
         $("+div", this).slideDown("fast");
       }else{
-        $(".accordion_cont_01").slideUp("slow");
+        $(".accordion_cont_01").slideUp("fast");
       }
   });
 
