@@ -3,24 +3,22 @@ $(function () {
       if($("+div",this).css('display') === "none"){
         $(".accordion_cont").slideUp("slow");
         $("+div", this).slideDown("fast");
+      }else{
+        $(".accordion_cont").slideUp("slow");
       }
   });
-});
 
-$(function () {
   $(".account .accordion-toggle_01").click(function () {        
       if($("+div",this).css('display') === "none"){
         $(".accordion_cont_01").slideUp("slow");
         $("+div", this).slideDown("fast");
+      }else{
+        $(".accordion_cont_01").slideUp("slow");
       }
   });
-});
 
-$(function () {
   $(".right_gnb .language").click(function () {
-    if($("+ul",this).css('display') === "none"){
-      $(".sublanguage li").addClass('')
-    }
+    $(this).toggleClass('selected');
   });
 });
 

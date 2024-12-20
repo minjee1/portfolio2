@@ -301,12 +301,16 @@
     font-size: 11px;
 }
 
-.language ul {
-    /* visibility: hidden; */
+.language.selected .sublanguage {
+    display: block;
 }
 
-.language ul li.selected {
-    /* display: none; */
+.language .toggle {
+    cursor: pointer;
+}
+
+.language .sublanguage {
+    display: none;
 }
 
 .language ul li {
